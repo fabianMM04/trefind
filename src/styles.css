@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+div.container-fluid {
+    background-color: #096aa7;
+}
+
+.btn-dark{
+    color: #238dc5;
+}
+
+p.name {
+    color: white;
+}
+
+p.favorite {
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+div.card-deck {
+    background-color: #f0efef;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0.5em;
+}
+.board {
+    background-color: #6ed4d0;
+    
+}
+
+.favorite {
+    background-color: #8d6cbc;
+    
+}
+
+.nameFavorite{
+    color: #fcf80e;
+}
+
+div.card-body h5{
+    color: white;
+}
+
+.username {
+    color: #edad4e;
+}
+
+.card-deck {
+    justify-content: center;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-]{
+    column-count: 3;
+}

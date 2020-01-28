@@ -1,0 +1,25 @@
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <img src="assets//trello.png" height="100px" width="400px">
+        </div>
+        <div class="col-12 col-lg-6">
+            <h1 class="display-1">TREFIND</h1>
+            <form [formGroup]="loginForm">
+            
+                <label>
+                <input type="text" formControlName="userName">
+                </label>
+            
+                <p >
+                    <a class="btn btn-dark" role="button" [routerLink]="['/dashboard', loginForm.get('userName').value ]"> ENTRAR</a>
+                </p>
+            
+            </form>
+            
+        </div>
+    </div>
+  </div>
