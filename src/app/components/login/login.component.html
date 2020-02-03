@@ -11,11 +11,11 @@
             <form [formGroup]="loginForm">
             
                 <label>
-                <input type="text" formControlName="userName">
+                <input type="text" formControlName="userName" #search>
                 </label>
             
                 <p >
-                    <a class="btn btn-dark" role="button" [routerLink]="['/dashboard', loginForm.get('userName').value ]"> ENTRAR</a>
+                    <a class="btn btn-dark" role="button" (click)="prueba()"> ENTRAR</a>
                 </p>
             
             </form>
